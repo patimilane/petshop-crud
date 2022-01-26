@@ -20,7 +20,6 @@ public class FuncionariosDAO {
 
         int result = 0;
         
-
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         try (Connection conexaoBD = DriverManager
